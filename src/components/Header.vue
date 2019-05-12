@@ -1,5 +1,5 @@
 <template>
-    <a href="">Kontakt</a>
+    <a href="#kontakt">Kontakt</a>
 </template>
 
 <style scoped>
@@ -12,6 +12,8 @@
         color: #DEF2F1;
         font-size: 1.5em;
         border-bottom-left-radius: 5px;
+        /* border-left: 0.5px solid #DEF2F1;
+        border-bottom: 0.5px solid #DEF2F1; */
     }
 
     a:hover {

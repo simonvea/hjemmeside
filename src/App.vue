@@ -8,6 +8,7 @@
         <about />
         <webstack />
         <projects />
+        <contact />
     </main>
     <footer>
       Copyright Simon Opheim &copy; 2019
@@ -21,6 +22,7 @@ import Welcome from "./components/Welcome.vue"
 import About from "./components/About.vue"
 import Webstack from "./components/Webstack.vue"
 import Projects from "./components/Projects.vue"
+import Contact from "./components/Contact.vue"
 
 
 export default {
@@ -30,7 +32,8 @@ export default {
     Welcome,
     About,
     Webstack,
-    Projects
+    Projects,
+    Contact
   }
 }
 </script>
