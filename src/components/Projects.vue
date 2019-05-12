@@ -130,10 +130,13 @@ export default {
                 },
                 {
                     name: "Pizza planet",
-                    info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og leser bestillinger. Laget ved bruk av Vue.js Vuex og firestore.",
+                    info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og leser bestillinger.",
                     egenskaper: [
                         "interaktiv",
-                        "Vue.js"
+                        "Single Page Application (Vue.js)",
+                        "Admin authentisering gjennom Firestore",
+                        "Interaktiv database (Firestore)",
+                        "Handlekurv (Vuex/Firestore)"
                     ],
                     linkToPlay: "url1",
                     linkToCode: "url2",
