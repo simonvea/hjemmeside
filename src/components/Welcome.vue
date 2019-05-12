@@ -2,11 +2,15 @@
     <section class="welcome">
             <h1>Simon Opheim</h1>
             <!-- <h2>Master i filosofi &amp; Webutikler</h2> -->
-            <h2>{{techSkills[index]}}</h2>
+            <h2>
+                {{techSkills[index]}}
+            </h2>
             <h3>
-                Jeg er en selvlært webutikler.
-                Jeg liker å lage webapplikasjoner som hjelper oss leve bedre liv.
+                Jeg er en selvlært webutikler. <br> Jeg bygger kule applikasjoner slik at du kan lede et godt liv.
             </h3>
+            <!-- <h4>
+                <a href="#kontakt">Hyr meg</a> for å bygge <em>ditt</em> produkt.
+            </h4> -->
     </section>
 </template>
 
@@ -38,9 +42,22 @@
 
     h3 {
         border-top: 1px solid #DEF2F1;
-        padding-top: 1px;
+        padding-top: 5px;
         width: 350px;
         text-align: center;
+    }
+
+    h4 {
+        margin-top: 5px;
+    }
+
+    a {
+        color: #17252A;
+        text-decoration-color: #17252A;
+    }
+
+    em {
+        font-size: 1.2em;
     }
 </style>
 

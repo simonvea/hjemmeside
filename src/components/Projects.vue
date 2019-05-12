@@ -2,25 +2,25 @@
     <section class="projects-container">
             <h2>Hva jeg har laget</h2>
             <section class="projects">
-                <article class="project" v-for="(project, index) in projects" :key="index">
-                    <section class="project-info">
-                        <h3>{{project.name}}</h3>
-                        <p> {{project.info}} </p>
-                        <h4>Egenskaper:</h4>
-                        <ul v-for="(egenskap, index) in project.egenskaper" :key="index">
-                            <li>{{egenskap}}</li>
-                        </ul>
-                    </section>
-                    <section class="project-view">
-                        <div class="img">
-                            <img :src="project.img">
-                        </div>
-                        <div class="links">
-                            <a v-bind:href="project.linkToPlay">Se side</a>
-                            <a v-bind:href="project.linkToCode">Se kode</a>
-                        </div>
-                    </section>
-                </article>
+                    <article class="project" v-for="(project, index) in projects" :key="index">
+                        <section class="project-info">
+                            <h3>{{project.name}}</h3>
+                            <p> {{project.info}} </p>
+                            <h4>Egenskaper:</h4>
+                            <ul v-for="(egenskap, egenskapIndex) in project.egenskaper" :key="egenskapIndex">
+                                <li>{{egenskap}}</li>
+                            </ul>
+                        </section>
+                        <section class="project-view">
+                            <div class="img">
+                                <img :src="project.img">
+                            </div>
+                            <div class="links">
+                                <a v-bind:href="project.linkToPlay">Se side</a>
+                                <a v-bind:href="project.linkToCode">Se kode</a>
+                            </div>
+                        </section>
+                    </article>
             </section>
     </section>
 </template>
