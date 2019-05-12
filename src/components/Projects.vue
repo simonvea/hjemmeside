@@ -125,7 +125,7 @@ export default {
                         "Javascript DOM manipulering"
                     ],
                     linkToPlay: "https://simonvea.github.io/prosjekter/Calculator/",
-                    linkToCode: "url2",
+                    linkToCode: "https://github.com/simonvea/prosjekter/tree/master/Calculator",
                     img: kalkulatorImg
                 },
                 {

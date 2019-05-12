@@ -6,9 +6,11 @@
         </p>
         <br>
         <p>
-            Så langt så har jeg opparbeidet meg ferdigheter innen: </p>
-            <br>
-           <p> HTML5, CSS3, Javascript ES6, Git, Vue.js, Vuex, Firebase, Google Apps Scripts, Ruby og Python.
+            Så langt så har jeg opparbeidet meg ferdigheter innen: 
+        </p>
+        <br>
+        <p> 
+               HTML5, CSS3, Javascript ES6, Git, Vue.js, Vuex, Firebase, Google Apps Scripts, Ruby og Python.
         </p>
     </section>
 </template>

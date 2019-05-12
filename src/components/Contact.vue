@@ -2,6 +2,8 @@
     <section id="kontakt">
         <p>
             Om du ønsker å ta kontakt, så send gjerne en mail til <a href="mailto:simon.opheim@gmail.com">simon.opheim@gmail.com</a> og jeg vil gi deg min respons i løpet av et døgn!
+            <br>
+            Jeg er også på <a href="https://www.linkedin.com/in/simon-opheim/">LinkedIn, hvor du også finner en oppdatert CV.
         </p>
     </section>
 </template>
