@@ -1,33 +1,54 @@
 <template>
     <section class="about">
-        <h2>Hei, jeg heter Simon.</h2>
-        <p>
-            Jeg er utdannet innenfor filosofi, men meste parten av tiden min går til å utvikle mine ferdigheter innen webutvikling.
-        </p>
-        <br>
-        <p>
-            Så langt så har jeg opparbeidet meg ferdigheter innen: 
-        </p>
-        <br>
-        <p> 
-               HTML5, CSS3, Javascript ES6, Git, Vue.js, Vuex, Firebase, Google Apps Scripts, Ruby og Python.
-        </p>
+        <div class="container">
+            <h2>Hei, jeg heter Simon.</h2>
+            <p> 
+                Webutvikling er  <em> gøy</em>. 
+            </p>
+            <p> Derfor har jeg endt opp med å lære meg webutvikling på egenhånd. </p>
+            <p> Jeg er nå på utkikk etter andre som deler min interesse for programmering og som liker å bygge kule ting på nett.</p>
+            <p>
+                Min historie er egentlig lang. Fra å leke med html og Microsoft Frontpage på ungdomskolen på tidlig 2000-tall, 
+                så har jeg etter flere års studier i filosofi (jeg er master i filosofi), samfunnsøkonomi (jeg har en bachelor), sosialt entreprenørskap og ingeniørstudier, 
+                endelig funnet tilbake til det jeg virkelig elsker: webutvikling.
+            </p>
+            <p>
+                Til daglig jobber jeg som medieanalytiker, men på ettermiddagen og mens jeg sover så koder jeg. Jeg elsker å lære nye ting og prøver dem ofte ut i søvne. Noen koder "HelloWorld", jeg koder drømmene mine.
+                <br>
+                Jeg lager nå daglig ting i Javascript, HTML og CSS.
+            </p>
+            <br>
+            <p>
+                Så langt så har jeg opparbeidet meg ferdigheter innen: 
+            </p>
+            <p> 
+                HTML5, CSS3, Javascript ES6, Git, Vue.js, Vuex, Firebase, Google Apps Scripts, Ruby og Python.
+            </p>
+        </div>
     </section>
 </template>
 
 <style scoped>
 
     .about {
-        height: 100vh;
-        padding: 13rem 3rem 18rem;
+        padding: 13rem 3rem 14rem;
         text-align: center;
         margin-bottom: -9rem;
         background-color: #2B7A78;
         color: #DEF2F1;
     }
 
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
     h2 {
-        margin-bottom: 7vh;
+        margin-bottom: 5vh;
+    }
+
+    p {
+        margin: 2vh;
     }
 
 </style>

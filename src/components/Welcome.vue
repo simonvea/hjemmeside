@@ -6,7 +6,7 @@
                 {{techSkills[index]}}
             </h2>
             <h3>
-                Jeg er en selvlært webutikler. <br> Jeg bygger kule applikasjoner slik at du kan lede et godt liv.
+                Jeg er en selvlært webutikler. <br> Jeg bygger kule nettapplikasjoner.
             </h3>
             <!-- <h4>
                 <a href="#kontakt">Hyr meg</a> for å bygge <em>ditt</em> produkt.
