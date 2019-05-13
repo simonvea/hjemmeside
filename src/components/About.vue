@@ -27,9 +27,6 @@
             <p>
                 Om du er ute etter hjelp til å lage noe ved bruk av denne type verktøy, så <a href="#kontakt">ta gjerne kontakt</a>. 
             </p>
-            <p>
-                Du vil møte en som elsker å lære nye ting og som er veldig interessert i å begynne å jobbe med utvikling på fulltid.
-            </p>
         </div>
     </section>
 </template>
