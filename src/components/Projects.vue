@@ -7,8 +7,10 @@
                             <h3>{{project.name}}</h3>
                             <p> {{project.info}} </p>
                             <h4>Egenskaper:</h4>
-                            <ul v-for="(egenskap, egenskapIndex) in project.egenskaper" :key="egenskapIndex">
-                                <li>{{egenskap}}</li>
+                            <ul>
+                                <li v-for="(egenskap, egenskapIndex) in project.egenskaper" :key="egenskapIndex">
+                                    {{egenskap}}
+                                    </li>
                             </ul>
                         </section>
                         <section class="project-view">
@@ -62,6 +64,10 @@
     ul {
         margin-top: 0.5rem;
         margin-left: 2em;
+    }
+
+    li {
+        margin: 5px 0;
     }
 
     .project-view {
@@ -161,7 +167,7 @@ export default {
                     info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
                     egenskaper: [
                         "Single Page Application (Vue.js/Vue Router)",
-                        "Brukerauthentisering (Firebase)",
+                        "Brukerautentisering (Firebase)",
                         "Interaktiv database (Firebase)",
                         "Handlekurv (Vuex/Firebase)",
                         "Bootstrap og Vuetify for design"

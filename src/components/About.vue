@@ -49,7 +49,7 @@
     }
 
     p {
-        margin: 2vh;
+        margin: 5px;
     }
 
     a:hover {
@@ -60,7 +60,12 @@
         .container {
             width: 80%;
         }
+
+        p {
+            margin: 2vh;
+        }
     }
+
 
 </style>
 
