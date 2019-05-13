@@ -28,7 +28,7 @@
 <style scoped>
     .projects-container {
         margin-top: -5vh;
-        width: 75%;
+        width: 90%;
         margin: auto;
         color: #17252A;
         background-color: #feffff;
@@ -48,11 +48,11 @@
     }
 
     .project-info {
-        grid-row: 1;
+        grid-row: 2;
     }
 
     h3 {
-        margin-bottom: 2rem;
+        margin: 1rem 0;
     }
 
     p {
@@ -65,15 +65,13 @@
     }
 
     .project-view {
-        grid-row: 2;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .project-view .img {
-        max-width:100%;
-        /* max-height:100%; */
-        height: 20vh;
-        /* width:auto; */
-        margin: auto;
         margin-bottom: 20px;
         display: flex;
         justify-content: center;
@@ -81,6 +79,8 @@
 
     img {
         border-radius: 5px;
+        max-width: calc(324px - 4rem);
+        max-height: 141px;
     }
 
     .links {
@@ -115,6 +115,10 @@
 --------------------------------- */
 
 @media only screen and (min-width: 768px) {
+    .projects-container {
+        width: 85%;
+    }
+
     .project {
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
@@ -123,17 +127,21 @@
 
     .project-info {
         grid-column: 1;
+        grid-row: 1;
     }
 
     
     .project-view {
         grid-column: 2;
-        grid-row: 1;
     }
 
-    img {
-        height: 30vh;
+    @media only screen and (min-width: 1281px) {
+        img {
+            max-width: calc(500px - 4rem);
+            max-height: 200px;
+        }
     }
+
 }
 
 </style>

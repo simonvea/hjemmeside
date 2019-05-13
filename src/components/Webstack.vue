@@ -23,7 +23,7 @@
 
     .tech {
         background: #feffff;
-        width: 80%;
+        width: 90%;
         margin: 0 auto 10rem;
         padding: 5rem 2rem;
         border-radius: 3rem;
@@ -92,6 +92,7 @@
 
     @media only screen and (min-width: 768px) {
         .tech {
+            width: 80%;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto;
         }
