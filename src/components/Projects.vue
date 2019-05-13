@@ -146,7 +146,7 @@ export default {
                     img: kalkulatorImg
                 },
                 {
-                    name: "www.simonopheim.no",
+                    name: "simonopheim.no",
                     info: "Min landings-side.",
                     egenskaper: [
                         "Lazy loading og kodestruktur gjennom Vue.js",
