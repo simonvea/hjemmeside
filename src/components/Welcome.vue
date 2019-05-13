@@ -40,6 +40,7 @@
     h2 {
         padding: 0 3rem;
         margin-bottom: 5px;
+        will-change: transform;
     }
 
     .container {
