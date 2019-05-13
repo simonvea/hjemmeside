@@ -1,10 +1,12 @@
 <template>
     <section class="welcome">
+        <div class="container">
             <h1>Simon Opheim</h1>
             <!-- <h2>Master i filosofi &amp; Webutikler</h2> -->
             <h2>
                 {{techSkills[index]}}
             </h2>
+        </div>
             <h3>
                 Jeg er en webutikler.<br>Jeg lager kule nettapplikasjoner.
             </h3>
@@ -40,8 +42,12 @@
         margin-bottom: 5px;
     }
 
+    .container {
+        width: 260px;
+        border-bottom: 1px solid #DEF2F1;
+    }
+
     h3 {
-        border-top: 1px solid #DEF2F1;
         padding-top: 5px;
         width: 350px;
         text-align: center;
