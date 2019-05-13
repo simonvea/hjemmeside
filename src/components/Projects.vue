@@ -118,21 +118,9 @@ export default {
         return {
             projects: [
                 {
-                    name: "Kalkulator",
-                    info: "En kalkulator laget i vanilla Javascript og HTML/CSS.",
-                    egenskaper: [
-                        "interaktiv",
-                        "Javascript DOM manipulering"
-                    ],
-                    linkToPlay: "https://simonvea.github.io/prosjekter/Calculator/",
-                    linkToCode: "https://github.com/simonvea/prosjekter/tree/master/Calculator",
-                    img: kalkulatorImg
-                },
-                {
                     name: "Pizza planet",
                     info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og leser bestillinger.",
                     egenskaper: [
-                        "interaktiv",
                         "Single Page Application (Vue.js)",
                         "Admin authentisering gjennom Firestore",
                         "Interaktiv database (Firestore)",
@@ -143,15 +131,15 @@ export default {
                     img: "img-url" 
                 },
                 {
-                    name: "Hjemmeside",
-                    info: "test",
+                    name: "Kalkulator",
+                    info: "En kalkulator laget i vanilla Javascript og HTML/CSS.",
                     egenskaper: [
-                        "Test",
+                        "interaktiv",
                         "Javascript DOM manipulering"
                     ],
-                    linkToPlay: "url1",
-                    linkToCode: "url2",
-                    img: "img-url" 
+                    linkToPlay: "https://simonvea.github.io/prosjekter/Calculator/",
+                    linkToCode: "https://github.com/simonvea/prosjekter/tree/master/Calculator",
+                    img: kalkulatorImg
                 }
             ]
         }
