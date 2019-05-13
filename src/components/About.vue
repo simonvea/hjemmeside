@@ -21,7 +21,7 @@
                 Så langt så har jeg laget nettsider, script og apper ved bruk av blant annet: 
             </p>
             <p> 
-                HTML5, CSS3, Javascript ES6, Git, Vue.js, Vuex, Firebase, Google Apps Scripts, Ruby og Python.
+                HTML5, CSS3, JavaScript ES6, Git, Vue.js, Vuex, Firebase, Google Apps Scripts, Ruby og Python.
             </p>
             <a href="https://github.com/simonvea" target="_blank" id="github"><img src="../assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
             <p>

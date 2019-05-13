@@ -170,7 +170,7 @@ export default {
                         "Brukerautentisering (Firebase)",
                         "Interaktiv database (Firebase)",
                         "Handlekurv (Vuex/Firebase)",
-                        "Bootstrap og Vuetify for design"
+                        "Bootstrap"
                     ],
                     linkToPlay: "https://simonvea.github.io/Pizzastore/",
                     linkToCode: "https://github.com/simonvea/Pizzastore",
@@ -178,10 +178,10 @@ export default {
                 },
                 {
                     name: "Kalkulator",
-                    info: "En kalkulator laget i vanilla Javascript og HTML/CSS.",
+                    info: "En kalkulator laget i vanilla JavaScript og HTML/CSS.",
                     egenskaper: [
                         "Ingen rammeverk",
-                        "Javascript DOM manipulering"
+                        "JavaScript DOM manipulering"
                     ],
                     linkToPlay: "https://simonvea.github.io/prosjekter/Calculator/",
                     linkToCode: "https://github.com/simonvea/prosjekter/tree/master/Calculator",
@@ -192,8 +192,6 @@ export default {
                     info: "Min landings-side.",
                     egenskaper: [
                         "Lazy loading og kodestruktur gjennom Vue.js",
-                        "Ingen andre rammeverk",
-                        "Designet og kodet selv",
                         "Mobile-first responsive design",
                         "Distribuert gjennom Netlify"
                     ],
