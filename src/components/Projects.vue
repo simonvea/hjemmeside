@@ -125,9 +125,9 @@ export default {
                     info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
                     egenskaper: [
                         "Single Page Application (Vue.js/Vue Router)",
-                        "Brukerauthentisering (Firestore)",
-                        "Interaktiv database (Firestore)",
-                        "Handlekurv (Vuex/Firestore)",
+                        "Brukerauthentisering (Firebase)",
+                        "Interaktiv database (Firebase)",
+                        "Handlekurv (Vuex/Firebase)",
                         "Bootstrap og Vuetify for design"
                     ],
                     linkToPlay: "https://simonvea.github.io/Pizzastore/",
