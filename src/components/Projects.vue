@@ -16,7 +16,7 @@
                                 <img :src="project.img" alt="Bilde av prosjektet">
                             </div>
                             <div class="links">
-                                <a v-bind:href="project.linkToPlay" target="_blank">Se side</a>
+                                <a v-if="project.linkToPlay" v-bind:href="project.linkToPlay" target="_blank">Se side</a>
                                 <a v-bind:href="project.linkToCode" target="_blank">Se kode</a>
                             </div>
                         </section>
@@ -154,7 +154,6 @@ export default {
                         "Designet og kodet selv",
                         "Distribuert gjennom Netlify"
                     ],
-                    linkToPlay: "https://wwww.simonopheim.no",
                     linkToCode: "https://github.com/simonvea/hjemmeside",
                     img: hjemmesideImg
                 }
