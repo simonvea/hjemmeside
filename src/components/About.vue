@@ -13,13 +13,14 @@
                 endelig funnet tilbake til det jeg virkelig elsker: webutvikling.
             </p>
             <p>
-                Til daglig jobber jeg som medieanalytiker, men på ettermiddagen og mens jeg sover så koder jeg. Jeg elsker å lære nye ting og prøver dem ofte ut i søvne. Noen koder "HelloWorld", jeg koder drømmene mine.
+                Til daglig jobber jeg som medieanalytiker, men på ettermiddagen og mens jeg sover så koder jeg. Jeg elsker å lære nye ting og prøver dem ofte ut i søvne. 
+                Noen koder &quot;HelloWorld&quot;. Jeg koder drømmene mine.
                 <br>
                 Jeg lager nå daglig ting i Javascript, HTML og CSS.
             </p>
-            <br>
+            <a href="https://github.com/simonvea" target="_blank"><img src="../assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
             <p>
-                Så langt så har jeg opparbeidet meg ferdigheter innen: 
+                Så langt så har jeg laget nettsider, script og apper ved bruk av blant annet: 
             </p>
             <p> 
                 HTML5, CSS3, Javascript ES6, Git, Vue.js, Vuex, Firebase, Google Apps Scripts, Ruby og Python.
@@ -49,6 +50,10 @@
 
     p {
         margin: 2vh;
+    }
+
+    a:hover {
+        content: url("../assets/GitHub-Mark-Light-32px.png");
     }
 
 </style>

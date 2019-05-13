@@ -12,7 +12,7 @@
 <style>
     #kontakt {
         text-align: center;
-        width: 400px;
+        max-width: 70%;
         margin: 0 auto 5vh;
     }
 

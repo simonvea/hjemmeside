@@ -11,10 +11,10 @@
           <contact />
     </main>
     <footer>
-      Simon Opheim &copy; 2019
-      <br>
       <a href="https://github.com/simonvea" target="_blank"><img src="./assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
       <a href="https://www.linkedin.com/in/simon-opheim/" target="_blank"><img src="./assets/In-White-26-┬«.png" alt="LinkedIn logo"></a>
+      <br>
+      Simon Opheim &copy; 2019
     </footer>
   </div>
 </template>
@@ -72,11 +72,11 @@ footer {
   background-color: #2B7a78;
   color: #FEFFFF;
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 3vh;
 }
 
 footer img {
-  margin: 1vh 1vh 0;
+  margin: 0 1vh 2vh;
 }
 
 /* ----------------------------------

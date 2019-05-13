@@ -125,7 +125,7 @@ export default {
                     info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
                     egenskaper: [
                         "Single Page Application (Vue.js/Vue Router)",
-                        "Bruker-authentisering (Firestore)",
+                        "Brukerauthentisering (Firestore)",
                         "Interaktiv database (Firestore)",
                         "Handlekurv (Vuex/Firestore)",
                         "Bootstrap og Vuetify for design"
@@ -149,7 +149,7 @@ export default {
                     name: "wwww.simonopheim.no",
                     info: "Min landings-side.",
                     egenskaper: [
-                        "Lazy loading og kode-struktur gjennom Vue.js",
+                        "Lazy loading og kodestruktur gjennom Vue.js",
                         "Ingen andre rammeverk",
                         "Designet og kodet selv",
                         "Distribuert gjennom Netlify"
