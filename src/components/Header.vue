@@ -6,19 +6,26 @@
     a {
         display: block;
         text-align: center;
-        padding: 14px 16px;
+        padding: 10px 12px;
         text-decoration: none;
         background-color: #2B7A78;
         color: #DEF2F1;
-        font-size: 1.5em;
+        font-size: 1.2em;
         border-bottom-left-radius: 5px;
-        /* border-left: 0.5px solid #DEF2F1;
-        border-bottom: 0.5px solid #DEF2F1; */
     }
 
     a:hover {
         background-color: #DEF2F1;
         color: #17252A;
         /* cursor: pointer; */
+    }
+
+    @media only screen and (min-width: 768px) {
+        a {
+            padding: 14px 16px;
+            background-color: #2B7A78;
+            color: #DEF2F1;
+            font-size: 1.5em;
+        }
     }
 </style>
