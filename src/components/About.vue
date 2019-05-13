@@ -6,7 +6,8 @@
                 Webutvikling er  <em> gøy</em>. 
             </p>
             <p> Derfor har jeg endt opp med å lære meg webutvikling på egenhånd. </p>
-            <p> Jeg er nå på utkikk etter andre som deler min interesse for programmering og som liker å bygge kule ting på nett.</p>
+            <p> Jeg er nå på utkikk etter andre som deler min interesse for programmering og som liker å bygge kule ting på nett. </p>
+            
             <p>
                 Fra å leke med html og Microsoft Frontpage på ungdomskolen, 
                 så har jeg etter flere års studier i filosofi (master), samfunnsøkonomi (bachelor), sosialt entreprenørskap og ingeniørstudier, 
@@ -17,14 +18,17 @@
                 Noen koder &quot;HelloWorld&quot;. Jeg koder drømmene mine.
             </p>
             <p>
-                Jeg lager nå daglig ting i Javascript, HTML og CSS.
-            </p>
-            <a href="https://github.com/simonvea" target="_blank"><img src="../assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
-            <p>
                 Så langt så har jeg laget nettsider, script og apper ved bruk av blant annet: 
             </p>
             <p> 
                 HTML5, CSS3, Javascript ES6, Git, Vue.js, Vuex, Firebase, Google Apps Scripts, Ruby og Python.
+            </p>
+            <a href="https://github.com/simonvea" target="_blank" id="github"><img src="../assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
+            <p>
+                Om du er ute etter hjelp til å lage noe ved bruk av denne type verktøy, så <a href="#kontakt">ta gjerne kontakt</a>. 
+            </p>
+            <p>
+                Du vil møte en som elsker å lære nye ting og som er veldig interessert i å begynne å jobbe med utvikling på fulltid.
             </p>
         </div>
     </section>
@@ -53,8 +57,13 @@
         margin: 2vh 5px;
     }
 
-    a:hover {
+    #github:hover {
         content: url("../assets/GitHub-Mark-Light-32px.png");
+    }
+
+    a {
+        text-decoration-color: #17252A;
+        color: #17252A;
     }
 
     @media only screen and (min-width: 768px) {
