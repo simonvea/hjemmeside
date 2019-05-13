@@ -13,7 +13,7 @@
                         </section>
                         <section class="project-view">
                             <div class="img">
-                                <img :src="project.img">
+                                <img :src="project.img" alt="Bilde av prosjektet">
                             </div>
                             <div class="links">
                                 <a v-bind:href="project.linkToPlay" target="_blank">Se side</a>
@@ -146,7 +146,7 @@ export default {
                     img: kalkulatorImg
                 },
                 {
-                    name: "wwww.simonopheim.no",
+                    name: "www.simonopheim.no",
                     info: "Min landings-side.",
                     egenskaper: [
                         "Lazy loading og kodestruktur gjennom Vue.js",
