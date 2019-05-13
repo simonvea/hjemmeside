@@ -9,7 +9,7 @@
             <p> Jeg er nå på utkikk etter andre som deler min interesse for programmering og som liker å bygge kule ting på nett.</p>
             <p>
                 Min historie er egentlig lang. Fra å leke med html og Microsoft Frontpage på ungdomskolen på tidlig 2000-tall, 
-                så har jeg etter flere års studier i filosofi (jeg er master i filosofi), samfunnsøkonomi (jeg har en bachelor), sosialt entreprenørskap og ingeniørstudier, 
+                så har jeg etter flere års studier i filosofi (master), samfunnsøkonomi (bachelor), sosialt entreprenørskap og ingeniørstudier, 
                 endelig funnet tilbake til det jeg virkelig elsker: webutvikling.
             </p>
             <p>
