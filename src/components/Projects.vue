@@ -1,6 +1,6 @@
 <template>
     <section class="projects-container">
-            <h2>Hva jeg har laget</h2>
+            <h2>Et utvalg av hva jeg har laget</h2>
             <section class="projects">
                     <article class="project" v-for="(project, index) in projects" :key="index">
                         <section class="project-info">
@@ -105,6 +105,7 @@
         background-color: #DEF2F1;
         color: #17252A;
         border: 0.5px solid #2B7A78;
+        padding: 4px 9px;
         /* cursor: pointer; */
     }
 </style>
@@ -112,34 +113,50 @@
 <script>
 //For å kunne bruke bilder fra assets
 const kalkulatorImg = require('../assets/prosjekt-kalkulator.png')
+const hjemmesideImg = require('../assets/hjemmeside.png')
+const pizzaImg = require('../assets/pizza-sjappe.png')
 
 export default {
     data() {
         return {
             projects: [
                 {
-                    name: "Pizza planet",
-                    info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og leser bestillinger.",
+                    name: "Simons Pizza",
+                    info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
                     egenskaper: [
-                        "Single Page Application (Vue.js)",
-                        "Admin authentisering gjennom Firestore",
+                        "Single Page Application (Vue.js/Vue Router)",
+                        "Bruker-authentisering (Firestore)",
                         "Interaktiv database (Firestore)",
-                        "Handlekurv (Vuex/Firestore)"
+                        "Handlekurv (Vuex/Firestore)",
+                        "Bootstrap og Vuetify for design"
                     ],
-                    linkToPlay: "url1",
-                    linkToCode: "url2",
-                    img: "img-url" 
+                    linkToPlay: "https://simonvea.github.io/Pizzastore/",
+                    linkToCode: "https://github.com/simonvea/Pizzastore",
+                    img: pizzaImg
                 },
                 {
                     name: "Kalkulator",
                     info: "En kalkulator laget i vanilla Javascript og HTML/CSS.",
                     egenskaper: [
-                        "interaktiv",
+                        "Ingen rammeverk",
                         "Javascript DOM manipulering"
                     ],
                     linkToPlay: "https://simonvea.github.io/prosjekter/Calculator/",
                     linkToCode: "https://github.com/simonvea/prosjekter/tree/master/Calculator",
                     img: kalkulatorImg
+                },
+                {
+                    name: "wwww.simonopheim.no",
+                    info: "Min landings-side.",
+                    egenskaper: [
+                        "Lazy loading og kode-struktur gjennom Vue.js",
+                        "Ingen andre rammeverk",
+                        "Designet og kodet selv",
+                        "Distribuert gjennom Netlify"
+                    ],
+                    linkToPlay: "https://wwww.simonopheim.no",
+                    linkToCode: "https://github.com/simonvea/hjemmeside",
+                    img: hjemmesideImg
                 }
             ]
         }
