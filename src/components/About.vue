@@ -40,7 +40,7 @@
     }
 
     .container {
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
 
@@ -54,6 +54,12 @@
 
     a:hover {
         content: url("../assets/GitHub-Mark-Light-32px.png");
+    }
+
+    @media only screen and (min-width: 768px) {
+        .container {
+            width: 80%;
+        }
     }
 
 </style>

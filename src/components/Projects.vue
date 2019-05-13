@@ -40,15 +40,15 @@
 
     .project {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
         border-radius: 2rem;
         margin: 2rem auto 4rem;
-        padding: 2rem 2rem 2rem 4rem;
+        padding: 2rem 2rem 2rem 2rem;
         box-shadow: 0 10px 10px #2B7A78;
     }
 
     .project-info {
-        grid-column: 1;
+        grid-row: 1;
     }
 
     h3 {
@@ -65,12 +65,14 @@
     }
 
     .project-view {
-        grid-column: 2;
+        grid-row: 2;
     }
 
     .project-view .img {
-        max-width: 70%;
-        height: 30vh;
+        max-width:100%;
+        /* max-height:100%; */
+        height: 20vh;
+        /* width:auto; */
         margin: auto;
         margin-bottom: 20px;
         display: flex;
@@ -78,7 +80,6 @@
     }
 
     img {
-        max-height: 100%;
         border-radius: 5px;
     }
 
@@ -108,6 +109,33 @@
         padding: 4px 9px;
         /* cursor: pointer; */
     }
+
+/* ---------------------------------
+-------Tablet and desktop-----------
+--------------------------------- */
+
+@media only screen and (min-width: 768px) {
+    .project {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        padding: 2rem 2rem 2rem 4rem;
+    }
+
+    .project-info {
+        grid-column: 1;
+    }
+
+    
+    .project-view {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    img {
+        height: 30vh;
+    }
+}
+
 </style>
 
 <script>
@@ -152,6 +180,7 @@ export default {
                         "Lazy loading og kodestruktur gjennom Vue.js",
                         "Ingen andre rammeverk",
                         "Designet og kodet selv",
+                        "Mobile-first",
                         "Distribuert gjennom Netlify"
                     ],
                     linkToCode: "https://github.com/simonvea/hjemmeside",
