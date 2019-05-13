@@ -13,8 +13,8 @@
     <footer>
       Simon Opheim &copy; 2019
       <br>
-      <a href="https://github.com/simonvea"><img src="./assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
-      <a href="https://www.linkedin.com/in/simon-opheim/"><img src="./assets/In-White-26-┬«.png" alt="LinkedIn logo"></a>
+      <a href="https://github.com/simonvea" target="_blank"><img src="./assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
+      <a href="https://www.linkedin.com/in/simon-opheim/" target="_blank"><img src="./assets/In-White-26-┬«.png" alt="LinkedIn logo"></a>
     </footer>
   </div>
 </template>

@@ -16,8 +16,8 @@
                                 <img :src="project.img">
                             </div>
                             <div class="links">
-                                <a v-bind:href="project.linkToPlay">Se side</a>
-                                <a v-bind:href="project.linkToCode">Se kode</a>
+                                <a v-bind:href="project.linkToPlay" target="_blank">Se side</a>
+                                <a v-bind:href="project.linkToCode" target="_blank">Se kode</a>
                             </div>
                         </section>
                     </article>
