@@ -123,6 +123,7 @@
 @media only screen and (min-width: 768px) {
     .projects-container {
         width: 85%;
+        max-width: 850px;
     }
 
     .project {
@@ -149,6 +150,7 @@
     }
 
 }
+
 
 </style>
 
