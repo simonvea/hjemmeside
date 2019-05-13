@@ -6,7 +6,7 @@
                 {{techSkills[index]}}
             </h2>
             <h3>
-                Jeg er en webutikler. <br> Jeg bygger kule nettapplikasjoner.
+                Jeg er en webutikler.<br>Jeg lager kule nettapplikasjoner.
             </h3>
             <!-- <h4>
                 <a href="#kontakt">Hyr meg</a> for å bygge <em>ditt</em> produkt.
@@ -66,7 +66,6 @@ import { setInterval } from 'timers';
 export default {
     data() {
         return {
-            titles: ["Master i filosofi", "Webutvikler", "Medieanalytiker"],
             techSkills: ["Javascript ES6", "HTML5", "CSS3", "Vue.js", "Vuex", "Firebase"],
             index: 0
         }
@@ -79,7 +78,7 @@ export default {
                 } else {
                     this.index=0;
                 }
-            }, 1500)
+            }, 1000)
         }
     },
     beforeMount() {
