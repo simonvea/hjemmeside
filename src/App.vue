@@ -12,6 +12,9 @@
     </main>
     <footer>
       Simon Opheim &copy; 2019
+      <br>
+      <a href="https://github.com/simonvea"><img src="./assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
+      <a href="https://www.linkedin.com/in/simon-opheim/"><img src="./assets/In-White-26-┬«.png" alt="LinkedIn logo"></a>
     </footer>
   </div>
 </template>
@@ -69,7 +72,11 @@ footer {
   background-color: #2B7a78;
   color: #FEFFFF;
   text-align: center;
-  padding-top: 7vh;
+  padding-top: 5vh;
+}
+
+footer img {
+  margin: 1vh 1vh 0;
 }
 
 /* ----------------------------------
