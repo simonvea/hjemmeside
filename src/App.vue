@@ -11,7 +11,7 @@
           <contact />
     </main>
     <footer>
-      Copyright Simon Opheim &copy; 2019
+      Simon Opheim &copy; 2019
     </footer>
   </div>
 </template>
