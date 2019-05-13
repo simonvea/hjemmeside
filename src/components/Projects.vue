@@ -188,7 +188,7 @@ export default {
                         "Lazy loading og kodestruktur gjennom Vue.js",
                         "Ingen andre rammeverk",
                         "Designet og kodet selv",
-                        "Mobile-first",
+                        "Mobile-first responsive design",
                         "Distribuert gjennom Netlify"
                     ],
                     linkToCode: "https://github.com/simonvea/hjemmeside",
