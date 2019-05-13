@@ -6,7 +6,7 @@
                 Webutvikling er  <em> gøy</em>. 
             </p>
             <p> Derfor har jeg endt opp med å lære meg webutvikling på egenhånd. </p>
-            <p> Jeg er nå på utkikk etter andre som deler min interesse for programmering og som liker å bygge kule ting på nett. </p>
+            <p> Jeg ønsker å begynne å jobbe med webutvikling på fulltid og er nå på utkikk etter andre som deler min interesse for programmering. </p>
             
             <p>
                 Fra å leke med html og Microsoft Frontpage på ungdomskolen, 
