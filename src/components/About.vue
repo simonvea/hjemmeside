@@ -16,7 +16,7 @@
                 Til daglig jobber jeg som medieanalytiker, men på ettermiddagen og mens jeg sover så koder jeg. Jeg elsker å lære nye ting og prøver dem ofte ut i søvne. 
                 Noen koder &quot;HelloWorld&quot;. Jeg koder drømmene mine.
             </p>
-            </p>
+            <p>
                 Jeg lager nå daglig ting i Javascript, HTML og CSS.
             </p>
             <a href="https://github.com/simonvea" target="_blank"><img src="../assets/GitHub-Mark-32px.png" alt="GitHub mark"></a>
