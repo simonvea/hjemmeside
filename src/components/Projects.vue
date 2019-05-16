@@ -185,8 +185,8 @@ export default {
                         "Ingen rammeverk",
                         "JavaScript DOM manipulering"
                     ],
-                    linkToPlay: "https://simonvea.github.io/prosjekter/Calculator/",
-                    linkToCode: "https://github.com/simonvea/prosjekter/tree/master/Calculator",
+                    linkToPlay: "https://simonvea.github.io/kalkulator/",
+                    linkToCode: "https://github.com/simonvea/kalkulator",
                     img: kalkulatorImg
                 },
                 {
