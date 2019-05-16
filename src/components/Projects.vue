@@ -165,7 +165,7 @@ export default {
         return {
             projects: [
                 {
-                    name: "Pizza huset",
+                    name: "Pizzahuset",
                     info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
                     egenskaper: [
                         "Single Page Application (Vue.js/Vue Router)",
@@ -174,7 +174,7 @@ export default {
                         "Handlekurv (Vuex/Firebase)",
                         "Bootstrap"
                     ],
-                    linkToPlay: "https://simonvea.github.io/Pizzastore/",
+                    linkToPlay: "https://simonvea.github.io/pizzahuset",
                     linkToCode: "https://github.com/simonvea/pizzahuset",
                     img: pizzaImg
                 },
