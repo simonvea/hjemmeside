@@ -101,7 +101,7 @@
         text-decoration: none;
         background-color: #2B7A78;
         color: #DEF2F1;
-        font-size: 2vh;
+        font-size: 16px;
         border-radius: 5px;
         margin: 0 10px;
         /* border-left: 0.5px solid #DEF2F1;
