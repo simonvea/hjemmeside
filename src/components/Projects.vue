@@ -42,7 +42,7 @@
 
     .project {
         display: grid;
-        grid-template-rows: 50% 50%;
+        grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); /* mimax in order to set min to 0, instead of the default "auto".. */
         border-radius: 2rem;
         margin: 2rem auto 4rem;
         padding: 2rem 2rem 2rem 2rem;
