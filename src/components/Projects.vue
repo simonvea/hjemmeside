@@ -141,14 +141,13 @@
     .project-view {
         grid-column: 2;
     }
+}
 
-    @media only screen and (min-width: 1281px) {
-        img {
-            max-width: calc(500px - 4rem);
-            max-height: 200px;
-        }
+@media only screen and (min-width: 1281px) {
+    img {
+        max-width: calc(500px - 4rem);
+        max-height: 200px;
     }
-
 }
 
 
