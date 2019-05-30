@@ -7,6 +7,7 @@
                 <img src="../assets/HTML5_Logo.svg">
                 <img src="../assets/CSS3_logo_and_wordmark.svg">
                 <img src="../assets/JavaScript-logo.png">
+                <img src="../assets/bootstrap-solid.svg">
             </div>
         </section>
         <section class="back-end">
