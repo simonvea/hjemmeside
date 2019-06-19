@@ -2,21 +2,15 @@
     <section class="about">
         <div class="container">
             <h2>Hei, jeg heter Simon.</h2>
-            <p> 
-                Webutvikling er  <em> gøy</em>. 
-            </p>
-            <p> Derfor har jeg endt opp med å lære meg webutvikling på egenhånd. </p>
-            <p> Jeg ønsker å begynne å jobbe med webutvikling på fulltid og er nå på utkikk etter andre som deler min interesse for programmering. </p>
-            
-            <p>
-                Fra å leke med html og Microsoft Frontpage på ungdomskolen, 
-                så har jeg etter flere års studier i filosofi (master), samfunnsøkonomi (bachelor), sosialt entreprenørskap og ingeniørstudier, 
-                endelig funnet tilbake til det jeg virkelig elsker: webutvikling.
-            </p>
-            <p>
-                Til daglig jobber jeg som medieanalytiker, men på ettermiddagen og mens jeg sover så koder jeg. Jeg elsker å lære nye ting og prøver dem ofte ut i søvne. 
-                Noen koder &quot;HelloWorld&quot;. Jeg koder drømmene mine.
-            </p>
+            <p> Jeg digger å løse problemer. </p>
+            <section class="cards-container">
+                <card
+                    v-for="(card, index) of cardsContents" v-bind:key="index"
+                    v-bind:title="card.title"
+                    v-bind:textContent="card.content"
+                ></card>
+            </section>
+             <br>
             <p>
                 Så langt så har jeg laget nettsider, script og apper ved bruk av blant annet: 
             </p>
@@ -31,6 +25,35 @@
     </section>
 </template>
 
+<script>
+import card from "./Card.vue"
+
+export default {
+    data() {
+        return {
+            cardsContents: [
+                {
+                    title: "Build",
+                    content: "Min kompetanse innen webutvikling gjør at jeg utvikler løsningen kunden, og du, trenger."
+                },
+                {
+                    title: "Measure",
+                    content: "Min erfaring fra Lean startup og sosialt entreprenørskap gjør at jeg effektivt og kontinuerlig identifiserer en løsning."
+                },
+                {
+                    title: "Learn",
+                    content: "Min mastergrad innen filosofi har gjort meg til en god lytter og kommunikator. Dette gjør at jeg raskt tilegner meg den riktige lærdomen og kommuniserer den effektivt videre."
+                }
+            ]
+        }
+    },
+    components: {
+        card,
+    }
+}
+</script>
+
+
 <style scoped>
 
     .about {
@@ -44,6 +67,12 @@
     .container {
         width: 100%;
         margin: auto;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     h2 {
@@ -63,6 +92,8 @@
         color: #17252A;
     }
 
+    
+
     @media only screen and (min-width: 768px) {
         .container {
             width: 80%;
@@ -70,6 +101,10 @@
 
         p {
             margin: 2vh;
+        }
+
+        .cards-container {
+            flex-direction: row;
         }
     }
 
