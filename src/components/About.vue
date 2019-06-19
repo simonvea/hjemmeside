@@ -3,14 +3,16 @@
         <div class="container">
             <h2>Hei, jeg heter Simon.</h2>
             <p> Jeg digger å løse problemer. </p>
-            <section class="cards-container">
-                <card
-                    v-for="(card, index) of cardsContents" v-bind:key="index"
-                    v-bind:title="card.title"
-                    v-bind:textContent="card.content"
-                ></card>
-            </section>
-             <br>
+        </div>
+        <section class="cards-container">
+            <card
+                v-for="(card, index) of cardsContents" v-bind:key="index"
+                v-bind:title="card.title"
+                v-bind:textContent="card.content"
+            ></card>
+        </section>
+        <div class="container">
+        
             <p>
                 Så langt så har jeg laget nettsider, script og apper ved bruk av blant annet: 
             </p>
@@ -57,7 +59,7 @@ export default {
 <style scoped>
 
     .about {
-        padding: 13rem 3rem 14rem;
+        padding: 13rem 0 14rem;
         text-align: center;
         margin-bottom: -9rem;
         background-color: #2B7A78;
@@ -72,7 +74,9 @@ export default {
     .cards-container {
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: space-around;
+        width: 100%;
     }
 
     h2 {
@@ -80,7 +84,7 @@ export default {
     }
 
     p {
-        margin: 2vh 5px;
+        margin: 2vh 3rem;
     }
 
     #github:hover {
@@ -105,6 +109,7 @@ export default {
 
         .cards-container {
             flex-direction: row;
+            align-items: initial;
         }
     }
 
