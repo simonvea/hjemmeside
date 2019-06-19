@@ -17,9 +17,11 @@ export default {
         border-radius: 2rem;
         margin: 1rem;
         padding: 2rem 2rem 2rem 2rem;
-        box-shadow: 0 10px 10px #17252A;
+        box-shadow: 0 5px 5px #17252A;
         text-align: center;
         width: 300px;
+        background-color: rgb(58, 175, 169);
+        color:#17252A;
     }
 
     .card-paragraph {
