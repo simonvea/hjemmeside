@@ -1,5 +1,5 @@
 <template>
-    <article class="info-card">
+    <article class="info-card" data-aos="flip-up" :data-aos-delay="delay">
         <h3 class="card-header">{{ title }}</h3>
         <p class="card-paragraph"> {{ textContent }} </p>
     </article>
@@ -8,7 +8,7 @@
 <script>
 export default {
     name: "card",
-    props: ["title", "textContent"]
+    props: ["title", "textContent", "delay"]
 }
 </script>
 

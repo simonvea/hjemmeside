@@ -26,6 +26,8 @@ import Welcome from "./components/Welcome.vue"
 // import Webstack from "./components/Webstack.vue"
 // import Projects from "./components/Projects.vue"
 // import Contact from "./components/Contact.vue"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 export default {
@@ -37,6 +39,11 @@ export default {
     Webstack: () => import("./components/Webstack.vue"),
     Projects: () => import("./components/Projects.vue"),
     Contact: () => import("./components/Contact.vue")
+  },
+  created() {
+    AOS.init({
+      easing: "ease-in-out"
+    })
   }
 }
 </script>

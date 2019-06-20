@@ -9,6 +9,7 @@
                 v-for="(card, index) of cardsContents" v-bind:key="index"
                 v-bind:title="card.title"
                 v-bind:textContent="card.content"
+                v-bind:delay="addDelayOnBigScreen(index)"
             ></card>
         </section>
         <div class="container">
@@ -46,11 +47,24 @@ export default {
                     title: "Learn",
                     content: "Min mastergrad innen filosofi har gjort meg til en god lytter og kommunikator. Dette gjør at jeg raskt tilegner meg den riktige lærdomen og kommuniserer den effektivt videre."
                 }
-            ]
+            ],
         }
     },
     components: {
         card,
+    },
+    methods: {
+        addDelay(number) {
+            const delayMs = 300;
+            return delayMs * number
+        },
+        addDelayOnBigScreen(number) {
+            const minScreenSize = 768;
+            if (window.innerWidth > minScreenSize) {
+                return this.addDelay(number)
+            }
+            return 0
+        }
     }
 }
 </script>

@@ -2,7 +2,10 @@
     <section class="projects-container">
             <h2>Et utvalg av hva jeg har laget</h2>
             <section class="projects">
-                    <article class="project" v-for="(project, index) in projects" :key="index">
+                    <article class="project" 
+                        data-aos="fade-right"
+                        v-for="(project, index) in projects" :key="index"
+                    >
                         <section class="project-info">
                             <h3>{{project.name}}</h3>
                             <p> {{project.info}} </p>
