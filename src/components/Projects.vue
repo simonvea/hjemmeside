@@ -167,6 +167,17 @@ export default {
         return {
             projects: [
                 {
+                    name: "ordsky.no backend",
+                    info: "Backenden til ordsky.no tar seg av tellingen av ord på nettsider og er deisgnet som et REST API. Publisert via Firebase.",
+                    egenskaper: [
+                        "Node.js",
+                        "Express",
+                        "REST API"
+                    ],
+                    linkToCode: "https://github.com/simonvea/ordsky-no",
+                    img: ""
+                },
+                {
                     name: "Pizzahuset",
                     info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
                     egenskaper: [
@@ -181,27 +192,28 @@ export default {
                     img: pizzaImg
                 },
                 {
-                    name: "Kalkulator",
-                    info: "En kalkulator laget i vanilla JavaScript og HTML/CSS.",
-                    egenskaper: [
-                        "Ingen rammeverk",
-                        "JavaScript DOM manipulering"
-                    ],
-                    linkToPlay: "https://simonvea.github.io/kalkulator/",
-                    linkToCode: "https://github.com/simonvea/kalkulator",
-                    img: kalkulatorImg
-                },
-                {
                     name: "simonopheim.no",
                     info: "Min landings-side.",
                     egenskaper: [
-                        "Lazy loading og kodestruktur gjennom Vue.js",
+                        "Vue.js for enkel skalering",
                         "Mobile-first responsive design",
                         "Distribuert gjennom Netlify"
                     ],
                     linkToCode: "https://github.com/simonvea/hjemmeside",
                     img: hjemmesideImg
-                }
+                },
+                {
+                    name: "Kalkulator",
+                    info: "En kalkulator laget i vanilla JavaScript og HTML/CSS.",
+                    egenskaper: [
+                        "Vanilla JavaScript",
+                        "HTML5",
+                        "CSS3"
+                    ],
+                    linkToPlay: "https://simonvea.github.io/kalkulator/",
+                    linkToCode: "https://github.com/simonvea/kalkulator",
+                    img: kalkulatorImg
+                },
             ]
         }
     }

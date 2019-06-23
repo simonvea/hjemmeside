@@ -3,6 +3,7 @@
         <section class="front-end">
             <h3>Frontend</h3>
             <div class="logos">
+                <img src="../assets/react.svg">
                 <img src="../assets/logo.png">
                 <img src="../assets/HTML5_Logo.svg">
                 <img src="../assets/CSS3_logo_and_wordmark.svg">
@@ -14,6 +15,7 @@
             <h3>Backend</h3>
             <div class="logos">
                 <img src="../assets/Node.js_logo.svg">
+                <img src="../assets/Expressjs.png">
                 <img src="../assets/Firebase_Logo.png">
             </div>
         </section>
@@ -75,15 +77,13 @@
 
     .front-end img {
         height: 80px;
-        margin-right: 10px;
-        margin-top: 10px;
+        margin: 30px 10px 0;
     }
 
     .back-end img {
         max-width: 100%;
         height: 60px;
-        margin-right: 10px;
-        margin-top: 30px;
+        margin: 30px 10px 0;
     }
 
 

@@ -43,7 +43,8 @@ export default {
   created() {
     AOS.init({
       easing: "ease-in-out",
-      throttleDelay: 200
+      throttleDelay: 200,
+      //once: true,
     })
   }
 }
