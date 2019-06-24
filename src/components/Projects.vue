@@ -167,12 +167,14 @@ export default {
         return {
             projects: [
                 {
-                    name: "ordsky.no backend",
-                    info: "Backenden til ordsky.no tar seg av tellingen av ord på nettsider og er deisgnet som et REST API. Publisert via Firebase.",
+                    name: "Ordsky.no",
+                    info: "Ordsky.no lar deg lage en ordsky av en tekst eller en url. Den er deisgnet som et REST API. Publisert via Google Cloud Functions og Hosting.",
                     egenskaper: [
                         "Node.js",
                         "Express",
-                        "REST API"
+                        "REST API",
+                        "Babel",
+                        "Webpack"
                     ],
                     linkToCode: "https://github.com/simonvea/ordsky-no",
                     img: ""
