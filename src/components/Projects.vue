@@ -184,7 +184,7 @@ export default {
                 },
                 {
                     name: "Pizzahuset",
-                    info: "Pizzahuset er nettsiden til en fiktiv en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
+                    info: "Pizzahuset er nettsiden til en fiktiv pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
                     egenskaper: [
                         "Single Page Application (Vue.js/Vue Router)",
                         "Brukerautentisering (Firebase)",
