@@ -8,7 +8,7 @@
             </h2>
         </div>
             <h3>
-                Jeg er en webutikler.<br>Jeg lager kule nettapplikasjoner.
+                Jeg er en webutvikler.<br>Jeg lager kule nettapplikasjoner.
             </h3>
             <!-- <h4>
                 <a href="#kontakt">Hyr meg</a> for å bygge <em>ditt</em> produkt.
@@ -73,7 +73,7 @@ import { setInterval } from 'timers';
 export default {
     data() {
         return {
-            techSkills: ["Javascript ES6", "HTML5", "CSS3", "Vue.js", "Vuex", "Firebase"],
+            techSkills: ["Javascript ES6", "HTML5", "CSS3", "Vue.js", "Vuex", "React", "Firebase", "Node.js", "Express"],
             index: 0
         }
     },
