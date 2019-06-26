@@ -161,6 +161,7 @@
 const kalkulatorImg = require('../assets/prosjekt-kalkulator.png')
 const hjemmesideImg = require('../assets/hjemmeside.png')
 const pizzaImg = require('../assets/pizza-sjappe.png')
+const ordskyImg = require('../assets/ordsky.svg')
 
 export default {
     data() {
@@ -168,20 +169,22 @@ export default {
             projects: [
                 {
                     name: "Ordsky.no",
-                    info: "Ordsky.no lar deg lage en ordsky av en tekst eller en url. Den er deisgnet som et REST API. Publisert via Google Cloud Functions og Hosting.",
+                    info: "Ordsky.no lar deg lage en ordsky fra en tekst, en egen definert liste av ord, eller fra innholdet til en annen nettside. Den er deisgnet som et REST API og er publisert via Firebase Cloud Functions.",
                     egenskaper: [
-                        "Node.js",
-                        "Express",
-                        "REST API",
+                        "REST API (Node.js/Express)",
+                        "Unit testing (Jest)",
+                        "Ordsky (d3.js)",
                         "Babel",
-                        "Webpack"
+                        "Webpack",
+                        "Bootstrap"
                     ],
+                    linkToPlay: "https:www.ordsky.no",
                     linkToCode: "https://github.com/simonvea/ordsky-no",
-                    img: ""
+                    img: ordskyImg
                 },
                 {
                     name: "Pizzahuset",
-                    info: "En fiktiv nettside for en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
+                    info: "Pizzahuset er nettsiden til en fiktiv en pizzasjappe. Nettsiden inkluderer en adminside som dynamisk endrer menyen og behandler bestillinger.",
                     egenskaper: [
                         "Single Page Application (Vue.js/Vue Router)",
                         "Brukerautentisering (Firebase)",

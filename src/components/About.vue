@@ -1,7 +1,6 @@
 <template>
     <section class="about">
         <div class="container">
-            <img id="profile" src="../assets/profil_liten.png" alt="profilbilde av Simon Opheim">
             <h2>Hei, jeg heter Simon.</h2>
             <p> Jeg digger å løse problemer. </p>
         </div>
@@ -84,14 +83,6 @@ export default {
     .container {
         width: 100%;
         margin: auto;
-    }
-
-    #profile {
-        border-radius: 50%;
-        opacity: 1;
-        margin-bottom: 2vh;
-        height: 150px;
-        width: 150px;
     }
 
     .cards-container {
