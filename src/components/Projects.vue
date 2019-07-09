@@ -200,7 +200,7 @@ export default {
                     name: "simonopheim.no",
                     info: "Min landings-side.",
                     egenskaper: [
-                        "Vue.js for enkel skalering",
+                        "Vue.js",
                         "Mobile-first responsive design",
                         "Distribuert gjennom Netlify"
                     ],

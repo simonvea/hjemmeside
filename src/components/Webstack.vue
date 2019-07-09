@@ -17,6 +17,7 @@
                 <img src="../assets/Node.js_logo.svg">
                 <img src="../assets/Expressjs.png">
                 <img src="../assets/Firebase_Logo.png">
+                <img src="../assets/MongoDB_Logo_FullColorBlack_RGB.png">
             </div>
         </section>
     </section>
