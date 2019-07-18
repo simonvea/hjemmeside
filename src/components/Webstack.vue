@@ -4,6 +4,7 @@
             <h3>Frontend</h3>
             <div class="logos">
                 <img src="../assets/react.svg">
+                <img src="../assets/redux.svg">
                 <img src="../assets/logo.png">
                 <img src="../assets/HTML5_Logo.svg">
                 <img src="../assets/CSS3_logo_and_wordmark.svg">
