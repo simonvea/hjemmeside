@@ -73,7 +73,7 @@ import { setInterval } from 'timers';
 export default {
     data() {
         return {
-            techSkills: ["Javascript ES6", "HTML5", "CSS3", "Vue.js", "Vuex", "React", "Firebase", "Node.js", "Express", "MongoDB"],
+            techSkills: ["Javascript ES2018", "HTML5", "CSS3", "Vue.js", "Vuex", "React", "Redux", "Firebase", "Node.js", "Express", "MongoDB"],
             index: 0
         }
     },
