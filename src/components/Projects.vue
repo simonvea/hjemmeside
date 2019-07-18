@@ -184,7 +184,7 @@ export default {
                     egenskaper: [
                         "API (Node.js/Express)",
                         "Database (Google Cloud Firestore)",
-                        "Ordsky generering (D3.js)",
+                        "Ordsky (D3.js)",
                     ],
                     linkToPlay: "https:www.ordsky.no",
                     linkToCode: "https://github.com/simonvea/ordsky-no",
