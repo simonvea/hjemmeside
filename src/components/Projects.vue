@@ -169,7 +169,7 @@ export default {
             projects: [
                 {
                     name: "Ordsky.no frontend",
-                    info: "Ordsky.no lar deg lage en ordsky fra en tekst, en egen definert liste av ord, eller fra innholdet til en annen nettside. Den er deisgnet som et REST API og er publisert via Firebase Cloud Functions.",
+                    info: "Ordsky.no lar deg lage en ordsky fra en tekst, en egen definert liste av ord, eller fra innholdet til en annen nettside.",
                     egenskaper: [
                         "Single Page Application (React)",
                         "State management (Redux)",
@@ -180,10 +180,11 @@ export default {
                 },
                 {
                     name: "Ordsky.no backend",
-                    info: "Ordsky.no lar deg lage en ordsky fra en tekst, en egen definert liste av ord, eller fra innholdet til en annen nettside. Den er deisgnet som et REST API og er publisert via Firebase Cloud Functions.",
+                    info: "Ordsky.no lar deg lage en ordsky fra en tekst, en egen definert liste av ord, eller fra innholdet til en annen nettside. Den er publisert via Firebase Cloud Functions.",
                     egenskaper: [
                         "API (Node.js/Express)",
-                        "Database (Firebase)",
+                        "Database (Google Cloud Firestore)",
+                        "Ordsky generering (D3.js)",
                     ],
                     linkToPlay: "https:www.ordsky.no",
                     linkToCode: "https://github.com/simonvea/ordsky-no",
