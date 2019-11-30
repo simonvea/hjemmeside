@@ -31,10 +31,11 @@ export default {
         { name: "Tørkerullholder" },
         { name: "Kaffefilterholder" },
         { name: "Spisebordsstoler" },
-        { name: "Laken/Sengetøy" }
+        { name: "Laken/Sengetøy" },
+        { name: "Små serveringsskåler" }
       ],
       year: 2019,
-      lastUpdated: "30.11.2019 18:40"
+      lastUpdated: "30.11.2019 19:05"
     };
   }
 };
