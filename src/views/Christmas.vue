@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 .christmas__container {
   min-height: 85vh;
   background-color: red;
@@ -49,6 +49,7 @@ export default {
   justify-content: center;
   align-items: center;
   color: white;
+  padding: 15px;
 }
 
 .christmas__title {
