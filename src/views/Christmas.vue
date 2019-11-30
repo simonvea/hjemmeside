@@ -43,7 +43,7 @@ export default {
 <style>
 .christmas__container {
   min-height: 85vh;
-  background-color: red;
+  background-color: #b3000c;
   display: flex;
   flex-direction: column;
   justify-content: center;
