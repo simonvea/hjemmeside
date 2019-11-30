@@ -31,14 +31,10 @@ export default {
         { name: "Tørkerullholder" },
         { name: "Kaffefilterholder" },
         { name: "Spisebordsstoler" },
-        {
-          name: "Pulsbelte (bluetooth)",
-          info: "For å koble til min (Garmin) smartklokke"
-        },
         { name: "Laken/Sengetøy" }
       ],
       year: 2019,
-      lastUpdated: "30.11.2019 18:05"
+      lastUpdated: "30.11.2019 18:40"
     };
   }
 };
