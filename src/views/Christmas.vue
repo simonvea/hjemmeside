@@ -32,10 +32,11 @@ export default {
         { name: "Kaffefilterholder" },
         { name: "Spisebordsstoler" },
         { name: "Laken/Sengetøy" },
-        { name: "Små serveringsskåler" }
+        { name: "Små serveringsskåler" },
+        { name: "klatresko" }
       ],
       year: 2019,
-      lastUpdated: "30.11.2019 19:05"
+      lastUpdated: "01.12.2019 17:20"
     };
   }
 };
